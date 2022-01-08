@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Shafar.ku</title>
+      <link href="style.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+    <body>
+       <section class="header">
+
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+            * {
+                font-family: 'Inter', sans-serif !important;
+            }
+
+            body .header {
+                background: #08090D;
+            }
+
+            body .header .content {
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+
+            body .header .content .headline {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 45px;
+                line-height: 59px;
+                color: #FFFFFF;
+            }
+
+            body .header .content .subheadline {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+
+            body .header .content .button-header {
+                margin-top: 30px;
+            }
+
+            body .header .content .button-header .btn-started {
+                background: #0DDB93;
+                border-radius: 8px;
+                width: 150px;
+                height: 50px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;
+                color: #001D01;
+            }
+
+            body .header .content .button-header .btn-watch {
+                background: transparent;
+                border-radius: 8px;
+                width: 150px;
+                height: 50px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;
+                -webkit-text-decoration-line: underline;
+                text-decoration-line: underline;
+                color: #939EA3;
+            }
+
+            @media screen and (min-width: 768px) {
+                body .header nav {
+                    padding-top: 30px;
+                }
+            }
+
+            body .header nav .navbar-brand {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 26px;
+                color: #FFFFFF;
+                margin-right: 30px !important;
+            }
+
+            @media screen and (min-width: 768px) {
+                body .header nav .navigation {
+                    padding-left: 30px;
+                    border-left: 1px solid #304454;
+                }
+            }
+
+            body .header nav .navigation li {
+                margin-right: 24px;
+            }
+
+            body .header nav .navigation a {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                color: #FFFFFF !important;
+            }
+
+            body .header nav .authentication li {
+                margin-right: 22px;
+            }
+
+            body .header nav .authentication a {
+                font-size: 16px;
+            }
+
+            @media screen and (max-width: 768px) {
+                body .header nav .authentication .login {
+                    width: 100%;
+                }
+            }
+
+            body .header nav .authentication .login a {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                color: #FFFFFF;
+            }
+
+            @media screen and (max-width: 768px) {
+                body .header nav .authentication .login a {
+                    background: #518CFF;
+                    border-radius: 8px;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    color: #FFFFFF !important;
+                    padding: 14px 14px 14px 14px !important;
+                }
+            }
+
+            body .header nav .authentication .signup {
+                background: #FFFFFF;
+                border-radius: 8px;
+                width: 113px;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                padding: 14px 14px 14px 14px !important;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;
+                color: #08090D;
+            }
+        </style>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container px-0">
+                <a class="navbar-brand mr-0" href="kado.html">
+                    Ekariyana.ku
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto navigation">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto authentication">
+                        <li class="nav-item my-auto text-center login">
+                            <a class="nav-link mb-3 mb-md-0" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item mr-0 text-center">
+                            <a class="nav-link signup" href="#">
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container px-md-5">
+            <div class="row content">
+                <div class="col-md-5 my-auto">
+                    <div class="headline">
+                        Happy Birthday<br class="d-none d-md-block">
+                       And Sugeng Ambal Warsa
+                    </div>
+                    <div class="subheadline mt-4">
+                        I am so grateful to have you as my friend. You’re such a great friend.
+                        Hope your birthday is as special as you are. Happy birthday, Eka Riyana
+                    </div>
+                    <div class="button-header">
+                        <a class="btn btn-primary" href="https://www.instagram.com/ekariyana_/" >Follow</a>
+                        <a class="btn btn-success" href="" onclick="alert('DI Bilang Jangan Sentuh Aku, Aku ngambek !')" >Jangan Sentuh Aku</a>
+                    </div>
+                </div>
+                <div class="col-md-7 mt-5 mt-md-0">
+                    <img src="assets/img/header.png"
+                        alt="header" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section><section class="choose">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+        * {
+            font-family: 'Inter', sans-serif !important;
+        }
+
+        body .choose {
+            background-color: #F9FCFC;
+        }
+
+        body .choose h1 {
+            color: #232323;
+            font-weight: 700 !important;
+        }
+
+        body .choose p {
+            color: #879FB0;
+        }
+
+        @media screen and (min-width: 768px) {
+            body .choose h1 {
+                font-size: 60px !important;
+            }
+        }
+
+        body .cl-blue {
+            color: #0F52BA !important;
+        }
+    </style>
+    <div class="container pb-4 px-4">
+        <div class="row text-center d-block pt-5 pb-md-4">
+            <h1 class="my-3">
+                Happy Birthday
+            </h1>
+            <p>Hadiah Yang Terbaik Adalah doa yang baik :v
+            </p>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-3 p-4" onmouseover="coloringgoals(this)" onmouseout="normalgoals(this)">
+                <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-House/taxes.svg"
+                    alt="taxes" class="img-fluid">
+                <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-House/taxes-color.svg"
+                    alt="taxes" class="img-fluid" style="display: none;">
+                <p class="font-weight-bold mt-4 mb-1 cl-blue">
+                    Hemat Dan Berinvestasi
+                </p>
+                <p class="mb-0">
+                   Jangan Jajan terus wee, Investasikan sedikit uang sakumu untuk menuntut ilmu .Mari belajar apa yang kamu suka.
+                </p>
+            </div>
+            <div class="col-md-3 p-4" onmouseover="coloringgoals(this)" onmouseout="normalgoals(this)">
+                <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-House/user.svg"
+                    alt="user" class="img-fluid">
+                <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-House/user-color.svg"
+                    alt="user" class="img-fluid" style="display: none;">
+                <p class="font-weight-bold mt-4 mb-1 cl-blue">
+                    Jaga Kesehatan Dan Jangan Lupa Makan
+                </p>
+                <p class="mb-0">
+                    Kesehatan Sangat Penting jadi pandai pandailah menjaga kesehatan agar tidak Tumbang :v
+                </p>
+            </div>
+            <div class="col-md-3 p-4" onmouseover="coloringgoals(this)" onmouseout="normalgoals(this)">
+                <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-House/discount.svg"
+                    alt="discount" class="img-fluid">
+                <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-House/discount-color.svg"
+                    alt="user" class="img-fluid" style="display: none;">
+                <p class="font-weight-bold mt-4 mb-1 cl-blue">
+                    Mencari Cuan Dan berbagi
+                </p>
+                <p class="mb-0">
+                  Semoga Tuhan Selalu mempermudah urusanmu dalam mencari rizki dan Mari sisihkan Sedikit rezeki kita untuk orang yang membutuhkan..
+                </p>
+            </div>
+            <div class="col-md-3 p-4" onmouseover="coloringgoals(this)" onmouseout="normalgoals(this)">
+                <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-House/calendar.svg"
+                    alt="calendar" class="img-fluid">
+                <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-House/calendar-color.svg"
+                    alt="user" class="img-fluid" style="display: none;">
+                <p class="font-weight-bold mt-4 mb-1 cl-blue">
+                    Ingat Waktu
+                </p>
+                <p class="mb-0">
+                   Berkerja semampunya belajar secukupnya dan jangan lupa istirahat, manut wong tua lewih kepenak.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function coloringgoals(x) {
+            x.classList.add('bg-white');
+            x.classList.add('rounded-24');
+            x.childNodes[1].style.display = "none";
+            x.childNodes[3].style.display = "block";
+        }
+
+        function normalgoals(x) {
+            x.classList.remove('bg-white');
+            x.classList.remove('rounded-24');
+            x.childNodes[1].style.display = "block";
+            x.childNodes[3].style.display = "none";
+        }
+    </script>
+</section><section class="left-circle">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Merriweather:wght@900&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+        * {
+            font-family: 'Poppins', 'Inter', sans-serif !important;
+        }
+
+        body .left-circle img {
+            z-index: 0;
+            margin-top: -250px;
+            position: absolute;
+        }
+
+        body .client {
+            background-color: #000909;
+            padding: 50px 30px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            body .client {
+                padding-top: 140px;
+                padding-bottom: 100px;
+            }
+        }
+
+        body .client h1 {
+            font-weight: 700;
+            font-size: 30px;
+            color: #EEEEEE;
+            z-index: 1;
+        }
+
+        @media only screen and (min-width: 768px) {
+            body .client h1 {
+                font-size: 48px !important;
+            }
+        }
+
+        body .client .merriweather {
+            font-family: 'Times New Roman', Times, serif !important;
+            font-weight: 700;
+            font-size: 20px;
+            color: white;
+            width: 100% !important;
+            z-index: 1;
+        }
+
+        body .client .review {
+            color: #EEEEEE;
+            line-height: 150%;
+            font-weight: 400;
+            font-size: 20px;
+            text-align: justify;
+            z-index: 1;
+        }
+
+        body .client h5 {
+            font-weight: 600;
+            font-size: 28px;
+            color: #EEEEEE;
+            z-index: 1;
+        }
+
+        body .client .company {
+            font-weight: 400;
+            font-size: 20px;
+            color: #666666;
+            z-index: 1;
+        }
+
+        body .client .client-img img {
+            width: 108px;
+            height: 60px;
+            z-index: 1;
+        }
+
+        @media only screen and (min-width: 768px) {
+            body .client .review-section {
+                padding-top: 116px;
+            }
+        }
+
+        body .cl-light {
+            color: #EEEEEE;
+        }
+
+        body .cl-light-grey-2 {
+            color: #90BCB7;
+        }
+
+        body .font-lora {
+            font-family: 'Lora', sans-serif !important;
+        }
+    </style>
+    <div class="d-flex justify-content-start">
+        <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/Left-Circle.png"
+            alt="circle">
+    </div>
+</section>
+
+<section class="client">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">
+                    Pemanis dan bukan Sponsor
+                </h1>
+            </div>
+        </div>
+        <div class="row mt-5 client-img d-flex justify-content-center mx-0">
+            <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-1.png"
+                alt="client" class="img-fluid mx-2 mx-md-4">
+            <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-2.png"
+                alt="client" class="img-fluid mx-2 mx-md-4">
+            <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-3.png"
+                alt="client" class="img-fluid mx-2 mx-md-4">
+            <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-4.png"
+                alt="client" class="img-fluid mx-2 mx-md-4">
+            <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-5.png"
+                alt="client" class="img-fluid mx-2 mx-md-4">
+            <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-6.png"
+                alt="client" class="img-fluid mx-2 mx-md-4">
+        </div>
+    </div>
+    <div class="container review-section">
+        <div class="row">
+            <div class="col-md-5 px-5 mt-4 mt-md-0">
+                <img src="assets/img/1.png"
+                    alt="" class="img-fluid">
+            </div>
+            <div class="col-md-7 mt-4 mt-md-0">
+                <div class="text-right">
+                    <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/petik.png"
+                        alt="mark" class="img-fluid">
+                </div>
+                <p class="review">
+                    I love getting to know people like you. No one can replace you, you with your story I'll never forget. There will be times when we will split up to pursue our own careers but don't worry about that. I'm sure Allah SWT will be able to get us together next time. Never feel alone because if you look for someone to be there for you. See you and enjoy your natural life
+                <br>Kita hanya perlu Mencari jalan kita masing masing dan berpetualanglah mengikuti nalurimu, karena kita tidak tau kapan kita mati</p>
+                <h5 class="mt-5">
+                    Aziiz Shafar Kurniawan
+                </h5>
+                <p class="company">
+                    Lambur,Indonesia
+                </p>
+            </div>
+        </div>
+    </div>
+</section><section class="explore">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+        * {
+            font-family: 'Inter', sans-serif !important;
+        }
+
+        @media screen and (min-width: 768px) {
+            body .pl-house {
+                margin: 0 !important;
+                padding-left: 100px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            body .pl-house {
+                margin: 0 10px 0 5px !important;
+            }
+        }
+
+        body .explore {
+            background-color: #080E09;
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+
+        @media screen and (max-width: 768px) {
+            body .explore {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+
+        body .explore .descript-explore {
+            max-width: 75%;
+        }
+
+        body .scrolling-wrapper {
+            overflow-x: auto;
+        }
+
+        body .section::-webkit-scrollbar {
+            height: 0 !important;
+        }
+
+        body .section::-webkit-scrollbar-track {
+            background-color: #e4e4e4;
+            border-radius: 100px;
+        }
+
+        body .section::-webkit-scrollbar-thumb {
+            background-color: #05BB2D;
+            border-radius: 100px;
+        }
+
+        body .cl-blue {
+            color: #0F52BA !important;
+        }
+
+        body .btn-blue {
+            background-color: #0F52BA;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            border-radius: 12px;
+            margin-top: 48px;
+        }
+
+        body .text-content h1 {
+            font-size: 60px !important;
+            line-height: 150%;
+            color: white;
+        }
+
+        body .text-content p {
+            font-size: 16px;
+            color: #ADB2B8;
+            font-weight: 400;
+            line-height: 28px;
+            padding-bottom: 108px;
+        }
+
+        body .title h1 {
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 150%;
+        }
+
+        @media screen and (max-width: 768px) {
+            body .title h1 {
+                font-size: 48px;
+            }
+        }
+
+        body .section::-webkit-scrollbar {
+            height: 0 !important;
+        }
+
+        body .section::-webkit-scrollbar-track {
+            background-color: #e4e4e4;
+            border-radius: 100px;
+        }
+
+        body .section::-webkit-scrollbar-thumb {
+            background-color: #05BB2D;
+            border-radius: 100px;
+        }
+
+        body .img-explore {
+            height: 600px;
+            padding: 0;
+        }
+
+        @media only screen and (max-width: 768px) {
+            body .img-explore {
+                height: 300px;
+            }
+        }
+
+        body .img-explore img {
+            width: 452px !important;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            border-radius: 24px;
+            margin-right: 72px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            body .img-explore img {
+                width: 226px !important;
+            }
+        }
+    </style>
+    <div class="pl-house">
+        <div class="row text-content title pt-35 my-0 mx-0" id="header">
+            <div class="col-md-9 px-md-0">
+                <h1 class="pb-3">
+                   Hanya Ada Sedikit GaleriKu
+                </h1>
+                <p class="pb-0 descript-explore">
+                  Sedikit foto yang bisa mengobati rindumu kepadaku
+                </p>
+            </div>
+            <div class="col-md-3 mt-md-3">
+
+            </div>
+        </div>
+        <div class="row section scrolling-wrapper flex-row flex-nowrap mt-2 img-explore mx-1" >
+            <img src="assets/img/13.jpeg" style="margin-left: 100px;"
+                alt="image-1" class="img-fluid">
+                <img src="assets/img/12.jpeg" 
+                alt="image-2" class="img-fluid">
+            <img src="assets/img/11.jpeg"style="margin-right: 100px;"
+                alt="image-3" class="img-fluid">
+                
+        </div>
+        <div id="player" style="margin: 100px 200px 100px 200px;"></div>
+
+        <script>
+          // 2. This code loads the IFrame Player API code asynchronously.
+          var tag = document.createElement('script');
+    
+          tag.src = "https://www.youtube.com/iframe_api";
+          var firstScriptTag = document.getElementsByTagName('script')[0];
+          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    
+          // 3. This function creates an <iframe> (and YouTube player)
+          //    after the API code downloads.
+          var player;
+          function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+              height: '390',
+              width: '640',
+              autoplay:'1',
+              videoId: 'LjDWeIEK4h8',
+              events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+              }
+            });
+          }
+    
+          // 4. The API will call this function when the video player is ready.
+          function onPlayerReady(event) {
+            event.target.playVideo();
+          }
+    
+          // 5. The API calls this function when the player's state changes.
+          //    The function indicates that when playing a video (state=1),
+          //    the player should play for six seconds and then stop.
+          var done = false;
+          function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+              setTimeout(stopVideo, 1000000);
+              done = true;
+            }
+          }
+          function stopVideo() {
+            player.stopVideo();
+          }
+        </script>
+    </div>
+
+</section><section class="h-100 w-100" style="box-sizing: border-box; background-image: linear-gradient(to bottom, rgba(31, 29, 43, 1), rgba(39, 37, 53, 1));">
+
+  <footer class="text-center text-white" style="background-color: #caced1;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Images -->
+      <section class="">
+          <p>Pengin Jalan Jalan Luar Negri</p>
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(17, 17, 17, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Images -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Copyright © 2022 || 
+      <a class="text-white" href="https://www.instagram.com/shafar.ku/">Shafar.ku</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+  </html>
